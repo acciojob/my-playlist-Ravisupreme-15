@@ -11,10 +11,11 @@ body{
 	background-color: rgb(204, 204, 204);
 	font-family: Arial;
 }
-
 li{
 	list-style-type:none;
-	
+}
+a{
+    text-decoration-line:none;
 }
 
 #songs{
@@ -43,7 +44,12 @@ li{
 	  padding:15px;
 	  background-color: rgb(255, 255, 255);
 }
-audio{
+
+.player_two{
 	width:100%;
 	height:30px;
+	background-color: rgb(255, 255, 255);
+}
+.player_one{
+	background-color: rgb(255, 255, 255);
 }
