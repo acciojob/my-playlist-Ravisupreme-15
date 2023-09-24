@@ -1,1 +1,49 @@
 /*  your css code here. If applicable */
+
+h1,h2{
+
+	text-align:center;
+	font-family: Arial;
+}
+
+body{
+/* 	background-color:#cccccc; */
+	background-color: rgb(204, 204, 204);
+	font-family: Arial;
+}
+
+li{
+	list-style-type:none;
+	
+}
+
+#songs{
+	background-color:white;
+	border:1px solid black;
+	border-radius:5px;
+	text-align:left;
+	margin-left:15px;
+	margin-right:15px;
+	height:150px;
+	
+}
+#songs>ul{
+
+	text-align:left;
+	font-family:Arial;
+	padding:10px;
+	
+}
+
+#media{
+      margin-left:50px;
+	  margin-right:50px;
+	  border:1px solid black; 
+	  border-radius:5px;
+	  padding:15px;
+	  background-color: rgb(255, 255, 255);
+}
+audio{
+	width:100%;
+	height:30px;
+}
